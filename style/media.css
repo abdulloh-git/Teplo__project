@@ -1,0 +1,117 @@
+@media screen and (max-width:870px) {
+    .header__nav-logo_p {
+        font-size: 40px;
+        margin-left: 20px;
+    }
+
+    .map__wrapper {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .header__nav-list_item-link {
+        font-size: 20px;
+    }
+
+    .header__nav {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .header {
+        padding: 40px 0;
+    }
+
+    .aboutUs__wrapper {
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+
+    .aboutUs__img {
+        max-width: 300px;
+    }
+
+    .aboutUs__desc {
+        width: 100%;
+    }
+
+    .aboutUs__p {
+        font-size: 20px;
+        word-break: break-all;
+    }
+}
+
+@media screen and (max-width:870px) {
+    .captain {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .otherMembers {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .header__nav-logo {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .header__nav-list {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .header__nav-list_item-link {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .header {
+        padding: 30px 0;
+    }
+
+    .aboutUs__p {
+        font-size: 18px;
+    }
+
+    .aboutUs {
+        padding: 0px 0;
+    }
+
+    .aboutUs__h2 {
+        font-size: 30px;
+    }
+
+    .contacts__h2 {
+        font-size: 20px;
+    }
+
+    .captain__name {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .captain__number {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .otherMembers__name {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .otherMembers__number {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .footer__nav-list {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+}
