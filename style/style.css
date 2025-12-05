@@ -59,7 +59,7 @@ body {
 .header__nav-list {
     display: flex;
     gap: 30px;
-    align-items: centeryyy;
+    align-items: center;
 }
 
 
@@ -86,9 +86,9 @@ body {
 }
 
 
-.header__nav-list_item-link:hover {
+/* .header__nav-list_item-link:hover {
     background: lightgray;
-}
+} */
 
 .header__nav-list_item-link:hover::after {
     opacity: 1;
@@ -306,9 +306,9 @@ body {
     transition: 0.3s;
 }
 
-.footer__nav-list_item-link:hover {
+/* .footer__nav-list_item-link:hover {
     background: lightgray;
-}
+} */
 
 .footer__nav-list_item-link::after {
     content: "";
